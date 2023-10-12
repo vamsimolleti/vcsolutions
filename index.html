@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Vijay Cloud Solutions (VCS)</title>
+    <style>
+        /* css */
+        body {
+            background: url(cloudbg.jpg) no-repeat 0px 0px;
+            background-size: cover;
+        }
+
+        /* header starts here */
+        header {
+            padding: 30px 0px 0px 0px;
+        }
+
+        .title {
+            text-align: center;
+            padding: 15px 0px 0px 0px;
+        }
+
+        .title img {
+            border-radius: 100px;
+        }
+
+        .title h1 {
+            color: #fff;
+            text-transform: uppercase;
+            box-shadow: 0 0 20px black;
+            padding: 10px 0px;
+            font-family: math;
+            text-shadow: 3px 1px 0px black;
+            font-size: 40px;
+            border-radius: 15px;
+        }
+
+        /* header ends here */
+        /* services section starts here */
+        .our-services {
+            display: inline-block;
+            margin: 40px 0px 0px 15px;
+            border-radius: 20px;
+            animation: 0.9s blink linear infinite;
+        }
+
+        @keyframes blink {
+            0% {
+                background-color: rgba(5, 192, 245, 0.6);
+            }
+
+            100% {
+                background-color: rgba(6, 122, 204, 0.6);
+            }
+        }
+
+        .services {
+            display: flex;
+            justify-content: center;
+            padding: 80px 0px 0px 0px;
+        }
+
+        .services h1 {
+            color: #fff;
+            font-size: 40px;
+            text-transform: capitalize;
+            text-shadow: 3px 1px 0px black;
+            font-family: math;
+            font-style: italic;
+        }
+
+        .our-services ul li {
+            padding: 0px 30px 0px 0px;
+            line-height: 30px;
+            font-size: 18px;
+            font-family: math;
+            color: #dfff00;
+        }
+
+        /* services section ends here*/
+
+        /* mediaqueries */
+        @media screen and (min-width:500px){
+            body{
+                height:100vh
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="title">
+                <img src="logo.jpg" alt="logo" width="100px" />
+                <h1>vijay cloud solutions</h1>
+            </div>
+        </header>
+        <section class="services">
+            <h1>services:-</h1>
+            <div class="our-services">
+                <ul>
+                    <li>HTML Static Web Application Development</li>
+                    <li>Web Hosting on Cloud</li>
+                    <li>100% security</li>
+                    <li>We do 24/7 Monitor of your Application</li>
+                    <li>24/7 Support</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
